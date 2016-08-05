@@ -1,6 +1,6 @@
-# React + Webpack + Babel
+# Posts App
 
-Simple boilerplate for a React development environment using Webpack and Babel, it also uses ESLint and the [AirBnB linting rules](https://github.com/airbnb/javascript/tree/master/react).
+Learning more React and Redux.
 
 ## Install
 Install all the dependencies by running:

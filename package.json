@@ -1,10 +1,10 @@
 {
-  "name": "react-webpack",
+  "name": "posts-app",
   "version": "1.0.0",
-  "description": "Boilerplate for a ReactJS development environment using Webpack and Babel",
+  "description": "Post app covering semi-advanced topics in Redux and React",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xkill-9/react-webpack.git"
+    "url": "https://github.com/xkill-9/posts-app.git"
   },
   "main": "webpack.config.js",
   "scripts": {
