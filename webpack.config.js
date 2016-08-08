@@ -19,8 +19,11 @@ var config = {
       {
         test: /\.jsx?$/,
         include: APP_DIR,
-        loader: 'babel-loader',
-        exclude: /node_modules/
+        loader: 'babel',
+        exclude: /node_modules/,
+        query: {
+          presets: ['react', 'es2015', 'stage-1']
+        }
       },
       {
         test:  /\.scss$/,

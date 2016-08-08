@@ -21,11 +21,14 @@
   "author": "Jorge Ivan Morales",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.13.1",
+    "babel-preset-stage-1": "^6.13.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
     "react-redux": "^4.4.5",
     "react-router": "^2.6.0",
-    "redux": "^3.5.2"
+    "redux": "^3.5.2",
+    "redux-promise": "^0.5.3"
   },
   "devDependencies": {
     "babel-core": "^6.11.4",
