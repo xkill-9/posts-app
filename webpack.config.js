@@ -20,10 +20,7 @@ var config = {
         test: /\.jsx?$/,
         include: APP_DIR,
         loader: 'babel',
-        exclude: /node_modules/,
-        query: {
-          presets: ['react', 'es2015', 'stage-1']
-        }
+        exclude: /node_modules/
       },
       {
         test:  /\.scss$/,
@@ -38,8 +35,14 @@ var config = {
     })
   ],
 
+  devServer: {
+    historyApiFallback: true,
+    contentBase: './src'
+  },
+
   output: {
     path: BUILD_DIR,
+    publicPath: '/',
     filename: 'bundle.[hash].js'
   }
 };
